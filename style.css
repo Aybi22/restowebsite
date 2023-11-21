@@ -338,7 +338,7 @@ p{
 
 .grid-container2 {
      display:grid;
-    
+     gap:11px;
      grid-template-areas:
        "header header header header header"
        "main main main main main"

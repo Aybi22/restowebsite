@@ -230,11 +230,82 @@ grid-area:header;
 
 /*menu CSS*/
 .box-container{
+    display:flex;
     justify-content:center;
     width:100%;
-    display:flex;
+   
     flex-wrap:wrap;
 }
+
+.box{
+    width:250px;
+    background:white;
+    padding:20px;
+    margin:35px;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.text{
+     flex:1;
+}
+
+.point{
+    font-size:45px;
+   font-weight:900;
+  
+   
+   
+}
+
+section{
+      display:flex;
+      gap:10px;
+      margin:10px;
+     
+}
+p{
+  font-size:1rem;
+  background:black;
+   color:white;
+   max-width:60%;
+   margin: 10px auto;
+   padding:7px;
+   font-weight:900;
+   font-family:verdana;
+   text-align:center;
+   
+}
+
+
+
+.grid-container {
+     display:grid;
+    
+     grid-template-areas:
+       "header header header header header"
+       "main main main main main"
+       "footer footer footer footer footer";
+
+  
+       }
+
+.header{
+grid-area:header;
+
+
+}
+
+
+
+.main{
+   grid-area:main;
+  
+}
+
+
+
+
 
 
 

@@ -39,6 +39,7 @@ img{
      background:red;
      padding:5px;
      color:white;
+     text-decoration: none;
 }
 .navbar li{
          list-style:none;

@@ -249,6 +249,31 @@ grid-area:header;
     font-size:24px;
 }
 
+.btn{
+    border:none;
+    color:white;
+    padding:14px;
+    background:orange;
+    width:160px;
+    text-transform:capitalize;
+    font-size:19px;
+    font-weight:bold;
+    margin-bottom:24px;
+}
+.text{
+   padding:35px;
+   text-align:center;
+} 
+.fix{
+  position:absolute;
+  top:50px;
+  font-size:20px
+}
+
+
+
+
+
 
 
 

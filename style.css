@@ -236,6 +236,12 @@ grid-area:header;
    background:pink;
 }
 
+.comment, 
+.node{
+      display:flex;
+      gap:5px;
+}
+
 
 
 

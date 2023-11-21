@@ -57,7 +57,7 @@ img{
             
 }
 
-.navbar a:hover{
+.navbar li:hover{
              color:red;
 }
 .order-section{

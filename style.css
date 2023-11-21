@@ -99,12 +99,7 @@ button{
    
 }  
 
-.mini-gallery{
-        display:flex;
-        gap:5px;
-        flex-wrap:nowrap;
-        margin:15px;
-}
+
 
 
 
@@ -130,12 +125,7 @@ button{
    
 }  
 
-.mini-gallery{
-        display:flex;
-        gap:5px;
-        flex-wrap:nowrap;
-        margin:15px;
-}
+
 
 .header{
       position:sticky;
@@ -236,26 +226,7 @@ grid-area:header;
 
 
 
-.navbar,.navbar ul{
-        display:flex;
-        flex-direction:column;
-       text-align:center;
-}
-.logo,li ,a{
-       width:100%;
-       display:block;
-}
-button{
-      margin-right:40px;
-      margin-top:11px;
-}
-.point{
-       margin-top:11px;
-}
-@keyframes points{
 
-to{right:10px};
-}
 /*menu CSS*/
 
 .point{
@@ -431,4 +402,34 @@ button{
     
     
     }
+
+    .navbar,.navbar ul{
+        display:flex;
+        flex-direction:column;
+       text-align:center;
+}
+.logo,li ,a{
+       width:100%;
+       display:block;
+}
+button{
+      margin-right:40px;
+      margin-top:11px;
+}
+.point{
+       margin-top:11px;
+}
+@keyframes points{
+
+to{right:10px};
+}
+
+
+
+
+
+
+
+
+
 }

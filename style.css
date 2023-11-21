@@ -230,7 +230,7 @@ grid-area:header;
 
 /*menu CSS*/
 
-.grid-container > div{
+.grid-container2 > div{
     border:10px solid black;
    padding:8px;
    background:pink;

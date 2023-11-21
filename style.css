@@ -229,6 +229,24 @@ grid-area:header;
 
 
 /*menu CSS*/
+
+.grid-container > div{
+    border:10px solid black;
+   padding:8px;
+   background:pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .box-container{
     display:flex;
     justify-content:center;

@@ -242,6 +242,14 @@ grid-area:header;
       gap:5px;
 }
 
+.price{
+    font-weight:900;
+    display:block;
+    margin-top:14px;
+    font-size:24px;
+}
+
+
 
 
 
